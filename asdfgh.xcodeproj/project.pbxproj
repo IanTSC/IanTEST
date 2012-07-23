@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFEF4C415BDDAD200B224CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFEF4C315BDDAD200B224CC /* UIKit.framework */; };
+		9DFEF4C615BDDAD200B224CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFEF4C515BDDAD200B224CC /* Foundation.framework */; };
+		9DFEF4C815BDDAD200B224CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFEF4C715BDDAD200B224CC /* CoreGraphics.framework */; };
+		9DFEF4CA15BDDAD200B224CC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFEF4C915BDDAD200B224CC /* GLKit.framework */; };
+		9DFEF4CC15BDDAD200B224CC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFEF4CB15BDDAD200B224CC /* OpenGLES.framework */; };
+		9DFEF4D215BDDAD200B224CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFEF4D015BDDAD200B224CC /* InfoPlist.strings */; };
+		9DFEF4D415BDDAD200B224CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFEF4D315BDDAD200B224CC /* main.m */; };
+		9DFEF4D815BDDAD200B224CC /* TSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFEF4D715BDDAD200B224CC /* TSCAppDelegate.m */; };
+		9DFEF4DB15BDDAD200B224CC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFEF4D915BDDAD200B224CC /* MainStoryboard_iPhone.storyboard */; };
+		9DFEF4DE15BDDAD200B224CC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFEF4DC15BDDAD200B224CC /* MainStoryboard_iPad.storyboard */; };
+		9DFEF4E015BDDAD200B224CC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9DFEF4DF15BDDAD200B224CC /* Shader.fsh */; };
+		9DFEF4E215BDDAD200B224CC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9DFEF4E115BDDAD200B224CC /* Shader.vsh */; };
+		9DFEF4E515BDDAD200B224CC /* TSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFEF4E415BDDAD200B224CC /* TSCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DFEF4BF15BDDAD200B224CC /* asdfgh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asdfgh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFEF4C315BDDAD200B224CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DFEF4C515BDDAD200B224CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DFEF4C715BDDAD200B224CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DFEF4C915BDDAD200B224CC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9DFEF4CB15BDDAD200B224CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9DFEF4CF15BDDAD200B224CC /* asdfgh-Info.plist */ = {isa = PBXFileReference; path = "asdfgh-Info.plist"; sourceTree = "<group>"; };
+		9DFEF4D115BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFEF4D315BDDAD200B224CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFEF4D515BDDAD200B224CC /* asdfgh-Prefix.pch */ = {isa = PBXFileReference; path = "asdfgh-Prefix.pch"; sourceTree = "<group>"; };
+		9DFEF4D615BDDAD200B224CC /* TSCAppDelegate.h */ = {isa = PBXFileReference; path = TSCAppDelegate.h; sourceTree = "<group>"; };
+		9DFEF4D715BDDAD200B224CC /* TSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCAppDelegate.m; sourceTree = "<group>"; };
+		9DFEF4DA15BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9DFEF4DD15BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9DFEF4DF15BDDAD200B224CC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		9DFEF4E115BDDAD200B224CC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		9DFEF4E315BDDAD200B224CC /* TSCViewController.h */ = {isa = PBXFileReference; path = TSCViewController.h; sourceTree = "<group>"; };
+		9DFEF4E415BDDAD200B224CC /* TSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFEF4BC15BDDAD200B224CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFEF4C415BDDAD200B224CC /* UIKit.framework in Frameworks */,
+				9DFEF4C615BDDAD200B224CC /* Foundation.framework in Frameworks */,
+				9DFEF4C815BDDAD200B224CC /* CoreGraphics.framework in Frameworks */,
+				9DFEF4CA15BDDAD200B224CC /* GLKit.framework in Frameworks */,
+				9DFEF4CC15BDDAD200B224CC /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFEF4B415BDDAD100B224CC = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4CD15BDDAD200B224CC /* asdfgh */,
+				9DFEF4C215BDDAD200B224CC /* Frameworks */,
+				9DFEF4C015BDDAD200B224CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFEF4C015BDDAD200B224CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4BF15BDDAD200B224CC /* asdfgh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFEF4C215BDDAD200B224CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4C315BDDAD200B224CC /* UIKit.framework */,
+				9DFEF4C515BDDAD200B224CC /* Foundation.framework */,
+				9DFEF4C715BDDAD200B224CC /* CoreGraphics.framework */,
+				9DFEF4C915BDDAD200B224CC /* GLKit.framework */,
+				9DFEF4CB15BDDAD200B224CC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFEF4CD15BDDAD200B224CC /* asdfgh */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4D615BDDAD200B224CC /* TSCAppDelegate.h */,
+				9DFEF4D715BDDAD200B224CC /* TSCAppDelegate.m */,
+				9DFEF4D915BDDAD200B224CC /* MainStoryboard_iPhone.storyboard */,
+				9DFEF4DC15BDDAD200B224CC /* MainStoryboard_iPad.storyboard */,
+				9DFEF4DF15BDDAD200B224CC /* Shader.fsh */,
+				9DFEF4E115BDDAD200B224CC /* Shader.vsh */,
+				9DFEF4E315BDDAD200B224CC /* TSCViewController.h */,
+				9DFEF4E415BDDAD200B224CC /* TSCViewController.m */,
+				9DFEF4CE15BDDAD200B224CC /* Supporting Files */,
+			);
+			path = asdfgh;
+			sourceTree = "<group>";
+		};
+		9DFEF4CE15BDDAD200B224CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEF4CF15BDDAD200B224CC /* asdfgh-Info.plist */,
+				9DFEF4D015BDDAD200B224CC /* InfoPlist.strings */,
+				9DFEF4D315BDDAD200B224CC /* main.m */,
+				9DFEF4D515BDDAD200B224CC /* asdfgh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFEF4BE15BDDAD200B224CC /* asdfgh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFEF4E815BDDAD200B224CC /* Build configuration list for PBXNativeTarget "asdfgh" */;
+			buildPhases = (
+				9DFEF4BB15BDDAD200B224CC /* Sources */,
+				9DFEF4BC15BDDAD200B224CC /* Frameworks */,
+				9DFEF4BD15BDDAD200B224CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asdfgh;
+			productName = asdfgh;
+			productReference = 9DFEF4BF15BDDAD200B224CC /* asdfgh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFEF4B615BDDAD100B224CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TSC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9DFEF4B915BDDAD100B224CC /* Build configuration list for PBXProject "asdfgh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DFEF4B415BDDAD100B224CC;
+			productRefGroup = 9DFEF4C015BDDAD200B224CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFEF4BE15BDDAD200B224CC /* asdfgh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFEF4BD15BDDAD200B224CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFEF4D215BDDAD200B224CC /* InfoPlist.strings in Resources */,
+				9DFEF4DB15BDDAD200B224CC /* MainStoryboard_iPhone.storyboard in Resources */,
+				9DFEF4DE15BDDAD200B224CC /* MainStoryboard_iPad.storyboard in Resources */,
+				9DFEF4E015BDDAD200B224CC /* Shader.fsh in Resources */,
+				9DFEF4E215BDDAD200B224CC /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFEF4BB15BDDAD200B224CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFEF4D415BDDAD200B224CC /* main.m in Sources */,
+				9DFEF4D815BDDAD200B224CC /* TSCAppDelegate.m in Sources */,
+				9DFEF4E515BDDAD200B224CC /* TSCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DFEF4D015BDDAD200B224CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFEF4D115BDDAD200B224CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DFEF4D915BDDAD200B224CC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFEF4DA15BDDAD200B224CC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFEF4DC15BDDAD200B224CC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFEF4DD15BDDAD200B224CC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFEF4E615BDDAD200B224CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFEF4E715BDDAD200B224CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFEF4E915BDDAD200B224CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asdfgh/asdfgh-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "asdfgh/asdfgh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DFEF4EA15BDDAD200B224CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asdfgh/asdfgh-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "asdfgh/asdfgh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFEF4B915BDDAD100B224CC /* Build configuration list for PBXProject "asdfgh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFEF4E615BDDAD200B224CC /* Debug */,
+				9DFEF4E715BDDAD200B224CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFEF4E815BDDAD200B224CC /* Build configuration list for PBXNativeTarget "asdfgh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFEF4E915BDDAD200B224CC /* Debug */,
+				9DFEF4EA15BDDAD200B224CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFEF4B615BDDAD100B224CC /* Project object */;
+}
