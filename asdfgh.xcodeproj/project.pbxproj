@@ -29,17 +29,17 @@
 		9DFEF4C715BDDAD200B224CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9DFEF4C915BDDAD200B224CC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		9DFEF4CB15BDDAD200B224CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		9DFEF4CF15BDDAD200B224CC /* asdfgh-Info.plist */ = {isa = PBXFileReference; path = "asdfgh-Info.plist"; sourceTree = "<group>"; };
+		9DFEF4CF15BDDAD200B224CC /* asdfgh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asdfgh-Info.plist"; sourceTree = "<group>"; };
 		9DFEF4D115BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9DFEF4D315BDDAD200B224CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9DFEF4D515BDDAD200B224CC /* asdfgh-Prefix.pch */ = {isa = PBXFileReference; path = "asdfgh-Prefix.pch"; sourceTree = "<group>"; };
-		9DFEF4D615BDDAD200B224CC /* TSCAppDelegate.h */ = {isa = PBXFileReference; path = TSCAppDelegate.h; sourceTree = "<group>"; };
+		9DFEF4D515BDDAD200B224CC /* asdfgh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asdfgh-Prefix.pch"; sourceTree = "<group>"; };
+		9DFEF4D615BDDAD200B224CC /* TSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCAppDelegate.h; sourceTree = "<group>"; };
 		9DFEF4D715BDDAD200B224CC /* TSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCAppDelegate.m; sourceTree = "<group>"; };
 		9DFEF4DA15BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9DFEF4DD15BDDAD200B224CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9DFEF4DF15BDDAD200B224CC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		9DFEF4E115BDDAD200B224CC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		9DFEF4E315BDDAD200B224CC /* TSCViewController.h */ = {isa = PBXFileReference; path = TSCViewController.h; sourceTree = "<group>"; };
+		9DFEF4E315BDDAD200B224CC /* TSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCViewController.h; sourceTree = "<group>"; };
 		9DFEF4E415BDDAD200B224CC /* TSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
